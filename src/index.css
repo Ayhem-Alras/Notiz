@@ -1,0 +1,54 @@
+/* src/App.css */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG5vdGVib29rfGVufDB8fHx8MTYyNzk4OTczMg&ixlib=rb-1.2.1&q=80&w=400') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  #notebook-paper {
+    width: 90%;
+    max-width: 960px;
+    background: white url('https://www.transparenttextures.com/patterns/flowers.png') repeat;
+    margin: 50px auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .content p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    #notebook-paper {
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .content {
+      font-size: 0.9rem;
+    }
+  }
+  
